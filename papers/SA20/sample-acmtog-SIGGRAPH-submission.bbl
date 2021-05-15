@@ -1,0 +1,552 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{40}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Andersson, Nilsson, Akenine-Möller,
+  Oskarsson, and Åströmand Mark D.~Fairchild}{Andersson
+  et~al\mbox{.}}{2020}]%
+        {FLIP}
+\bibfield{author}{\bibinfo{person}{Pontus Andersson}, \bibinfo{person}{Jim
+  Nilsson}, \bibinfo{person}{Tomas Akenine-Möller}, \bibinfo{person}{Magnus
+  Oskarsson}, {and} \bibinfo{person}{Kalle Åströmand Mark D.~Fairchild}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{\reflectbox{F}LIP: A Difference Evaluator for
+  Alternating Images}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Computer Graphics
+  and Interactive Techniques (HPG 2020)}} \bibinfo{volume}{3},
+  \bibinfo{number}{2}, Article \bibinfo{articleno}{15} (\bibinfo{year}{2020}),
+  \bibinfo{numpages}{23}~pages.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Arm Limited}}{{Arm Limited}}{2016}]%
+        {Arm16}
+\bibfield{author}{\bibinfo{person}{{Arm Limited}}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Mali Texture Compression Tool}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.arm.com/tools-and-software/graphics-and-gaming/mali-texture-compression-tool/downloads}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Arm Limited.}}{{Arm Limited.}}{2020}]%
+        {Arm20}
+\bibfield{author}{\bibinfo{person}{{Arm Limited.}}}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{astc-encoder}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/ARM-software/astc-encoder/tree/1.x}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Binomial LLC}}{{Binomial LLC}}{2020}]%
+        {Bin20}
+\bibfield{author}{\bibinfo{person}{{Binomial LLC}}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Basis Universal Supercompressed GPU
+  Texture Codec}}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/BinomialLLC/basis_universal}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chait}{Chait}{2015}]%
+        {Cha15}
+\bibfield{author}{\bibinfo{person}{David Chait}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Using {ASTC} Texture Compression for Game
+  Assets}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.nvidia.com/astc-texture-compression-for-game-assets}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{De~Chaumont, Dallongeville, Chenouard,
+  Herv{\'e}, Pop, Provoost, Meas-Yedid, Pankajakshan, Lecomte, Le~Montagner,
+  Lagache, Dufour, and Olivo-Marin}{De~Chaumont et~al\mbox{.}}{2012}]%
+        {ICY}
+\bibfield{author}{\bibinfo{person}{Fabrice De~Chaumont},
+  \bibinfo{person}{St{\'e}phane Dallongeville}, \bibinfo{person}{Nicolas
+  Chenouard}, \bibinfo{person}{Nicolas Herv{\'e}}, \bibinfo{person}{Sorin Pop},
+  \bibinfo{person}{Thomas Provoost}, \bibinfo{person}{Vannary Meas-Yedid},
+  \bibinfo{person}{Praveen Pankajakshan}, \bibinfo{person}{Timoth{\'e}e
+  Lecomte}, \bibinfo{person}{Yoann Le~Montagner}, \bibinfo{person}{Thibault
+  Lagache}, \bibinfo{person}{Alexandre Dufour}, {and}
+  \bibinfo{person}{Jean-Christophe Olivo-Marin}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Icy: an open bioimage informatics platform for
+  extended reproducible research}.
+\newblock \bibinfo{journal}{\emph{Nature methods}} \bibinfo{volume}{9},
+  \bibinfo{number}{7} (\bibinfo{year}{2012}), \bibinfo{pages}{690--696}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dufresne}{Dufresne}{2015}]%
+        {Duf15}
+\bibfield{author}{\bibinfo{person}{Marc~Fauconneau Dufresne}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{How to create a high quality, fast texture
+  compressor using {ISPC}}. In \bibinfo{booktitle}{\emph{Game Developer
+  Conference 2015}}.
+\newblock
+\urldef\tempurl%
+\url{https://software.intel.com/sites/default/files/managed/4a/38/High-Quality_Fast-DX11-Texture-Compression.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Easterbrook, Grau, and Schubel}{Easterbrook
+  et~al\mbox{.}}{2010}]%
+        {EGS10}
+\bibfield{author}{\bibinfo{person}{Jim Easterbrook}, \bibinfo{person}{Oliver
+  Grau}, {and} \bibinfo{person}{Peter Schubel}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{A system for distributed multi-camera capture and
+  processing}. In \bibinfo{booktitle}{\emph{Proceedings of the 2010 Conference
+  on Visual Media Production}}. IEEE, \bibinfo{pages}{107--113}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ericsson}{Ericsson}{2018}]%
+        {Eri18}
+\bibfield{author}{\bibinfo{person}{Ericsson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{ETCPACK}}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/Ericsson/ETCPACK}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Fenney}{Fenney}{2003}]%
+        {Fen03}
+\bibfield{author}{\bibinfo{person}{Simon Fenney}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Texture compression using low-frequency signal
+  modulation}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM
+  SIGGRAPH/EUROGRAPHICS conference on Graphics Hardware}}.
+  \bibinfo{pages}{84--91}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Google Inc.} and {Blue Shift Inc.}}{{Google
+  Inc.} and {Blue Shift Inc.}}{2017}]%
+        {GB17}
+\bibfield{author}{\bibinfo{person}{{Google Inc.}} {and} \bibinfo{person}{{Blue
+  Shift Inc.}}} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Etc2{C}omp - Texture to {ETC}2
+  compressor}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/google/etc2comp}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Griffin and Olano}{Griffin and Olano}{2015}]%
+        {GO15}
+\bibfield{author}{\bibinfo{person}{Wesley Griffin} {and} \bibinfo{person}{Marc
+  Olano}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Evaluating texture compression masking effects
+  using objective image quality assessment metrics}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and
+  Computer Graphics}} \bibinfo{volume}{21}, \bibinfo{number}{8}
+  (\bibinfo{year}{2015}), \bibinfo{pages}{970--979}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Intel Corp.}}{{Intel Corp.}}{2019}]%
+        {Int19}
+\bibfield{author}{\bibinfo{person}{{Intel Corp.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fast {ISPC} Texture Compressor}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/GameTechDev/ISPCTextureCompressor}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Iourcha, Nayak, and Hong}{Iourcha
+  et~al\mbox{.}}{1999}]%
+        {S3TC}
+\bibfield{author}{\bibinfo{person}{Konstantine~I Iourcha},
+  \bibinfo{person}{Krishna~S Nayak}, {and} \bibinfo{person}{Zhou Hong}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \bibinfo{title}{System and method for fixed-rate block-based image
+  compression with inferred pixel values}.
+\newblock
+\newblock
+\newblock
+\shownote{US Patent 5,956,431.}
+
+
+\bibitem[\protect\citeauthoryear{Jakob}{Jakob}{2020}]%
+        {Enoki}
+\bibfield{author}{\bibinfo{person}{Wenzel Jakob}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Enoki: structured vectorization and differentiation
+  on modern processor architectures}.
+\newblock
+\newblock
+\newblock
+\shownote{https://github.com/mitsuba-renderer/enoki.}
+
+
+\bibitem[\protect\citeauthoryear{Kemen}{Kemen}{2012}]%
+        {Kem12}
+\bibfield{author}{\bibinfo{person}{Brano Kemen}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{In-Game Video Capture with Real-Time Texture
+  Compression}.
+\newblock In \bibinfo{booktitle}{\emph{{O}pen{GL} {I}nsights}},
+  \bibfield{editor}{\bibinfo{person}{Patrick Cozzi} {and}
+  \bibinfo{person}{Christophe Riccio}} (Eds.). \bibinfo{publisher}{CRC Press},
+  \bibinfo{pages}{455--466}.
+\newblock
+\showISBNx{978-1439893760}
+\newblock
+\shownote{\url{http://www.openglinsights.com/}.}
+
+
+\bibitem[\protect\citeauthoryear{Kerzner and Salvi}{Kerzner and Salvi}{2014}]%
+        {KS14}
+\bibfield{author}{\bibinfo{person}{Ethan Kerzner} {and} \bibinfo{person}{Marco
+  Salvi}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Streaming {G}-buffer compression for multi-sample
+  anti-aliasing}. In \bibinfo{booktitle}{\emph{Proceedings of High Performance
+  Graphics 2014}}. \bibinfo{pages}{1--7}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Khronos Group}}{{Khronos Group}}{2019}]%
+        {Khr19}
+\bibfield{author}{\bibinfo{person}{{Khronos Group}}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Khronos Data Format Specification, Version
+  1.3, Revision 1}}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.khronos.org/registry/DataFormat/specs/1.3/dataformat.1.3.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kluev}{Kluev}{2014}]%
+        {klu14}
+\bibfield{author}{\bibinfo{person}{Evgeny Kluev}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Stack {O}verflow - {H}orizontal minimum and
+  maximum using {SSE}}}.
+\newblock
+\urldef\tempurl%
+\url{https://stackoverflow.com/questions/22256525/horizontal-minimum-and-maximum-using-sse}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Krajcevski, Lake, and Manocha}{Krajcevski
+  et~al\mbox{.}}{2013}]%
+        {KLM13}
+\bibfield{author}{\bibinfo{person}{Pavel Krajcevski}, \bibinfo{person}{Adam
+  Lake}, {and} \bibinfo{person}{Dinesh Manocha}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Fas{TC}: accelerated fixed-rate texture encoding}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the ACM SIGGRAPH Symposium on
+  Interactive 3D Graphics and Games}}. \bibinfo{pages}{137--144}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Leech and Lipcha}{Leech and Lipcha}{2019}]%
+        {LL19}
+\bibfield{author}{\bibinfo{person}{Jon Leech} {and} \bibinfo{person}{Benj
+  Lipcha}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{OpenGL{\copyright} ES Version 3.0.6
+  (November 1, 2019)}}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.khronos.org/registry/OpenGL/specs/es/3.0/es_spec_3.0.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Linde, Buzo, and Gray}{Linde
+  et~al\mbox{.}}{1980}]%
+        {LBG80}
+\bibfield{author}{\bibinfo{person}{Yoseph Linde}, \bibinfo{person}{Andres
+  Buzo}, {and} \bibinfo{person}{Robert Gray}.} \bibinfo{year}{1980}\natexlab{}.
+\newblock \showarticletitle{An algorithm for vector quantizer design}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Communications}}
+  \bibinfo{volume}{28}, \bibinfo{number}{1} (\bibinfo{year}{1980}),
+  \bibinfo{pages}{84--95}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McAnlis}{McAnlis}{2016}]%
+        {McA16}
+\bibfield{author}{\bibinfo{person}{Colt McAnlis}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Building a blazing fast {ETC2}
+  compressor}}.
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/@duhroach/building-a-blazing-fast-etc2-compressor-307f3e9aad99#.acqks0pzct}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Microsoft}{Microsoft}{2018}]%
+        {Mic18}
+\bibfield{author}{\bibinfo{person}{Microsoft}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Texture Block Compression in {D}irect3{D}
+  11}}.
+\newblock
+\urldef\tempurl%
+\url{https://docs.microsoft.com/en-us/windows/win32/direct3d11/texture-block-compression-in-direct3d-11}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nah}{Nah}{2020}]%
+        {Any20}
+\bibfield{author}{\bibinfo{person}{Jae-Ho Nah}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Quick{ETC}2: How to finish {ETC}2 compression
+  within 1 ms}. In \bibinfo{booktitle}{\emph{ACM SIGGRAPH 2020 Talks}}. Article
+  \bibinfo{articleno}{4}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nah, Choi, and Lim}{Nah et~al\mbox{.}}{2018}]%
+        {NCL18}
+\bibfield{author}{\bibinfo{person}{Jae-Ho Nah}, \bibinfo{person}{Byeongjun
+  Choi}, {and} \bibinfo{person}{Yeongkyu Lim}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Classified texture resizing for mobile devices}. In
+  \bibinfo{booktitle}{\emph{ACM SIGGRAPH 2018 Talks}}. Article
+  \bibinfo{articleno}{73}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{NVIDIA}}{{NVIDIA}}{2020}]%
+        {NVI20}
+\bibfield{author}{\bibinfo{person}{{NVIDIA}}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{NVIDIA} Texture Tools Exporter}}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.nvidia.com/nvidia-texture-tools-exporter}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nystad, Lassen, Pomianowski, Ellis, and
+  Olson}{Nystad et~al\mbox{.}}{2012}]%
+        {NLP12}
+\bibfield{author}{\bibinfo{person}{Jorn Nystad}, \bibinfo{person}{Anders
+  Lassen}, \bibinfo{person}{Andy Pomianowski}, \bibinfo{person}{Sean Ellis},
+  {and} \bibinfo{person}{Tom Olson}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Adaptive scalable texture compression}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the ACM SIGGRAPH/EUROGRAPHICS
+  conference on High-Performance Graphics}}. \bibinfo{pages}{105--114}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Oom}{Oom}{2016}]%
+        {Oom16}
+\bibfield{author}{\bibinfo{person}{Daniel Oom}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Real-Time Adaptive Scalable Texture Compression
+  for the Web}}.
+\newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{Chalmers
+  University of Technology.}
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Paltashev and Perminov}{Paltashev and
+  Perminov}{2014}]%
+        {PP14}
+\bibfield{author}{\bibinfo{person}{T. Paltashev} {and} \bibinfo{person}{I.
+  Perminov}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Texture Compression Techniques}.
+\newblock \bibinfo{journal}{\emph{Scientific Visualization}}
+  \bibinfo{volume}{6}, \bibinfo{number}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{106--146}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pettersson and Str{\"o}m}{Pettersson and
+  Str{\"o}m}{2005}]%
+        {PS05}
+\bibfield{author}{\bibinfo{person}{Martin Pettersson} {and}
+  \bibinfo{person}{Jacob Str{\"o}m}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Texture Compression: {THUMB}: Two Hues Using
+  Modified Brightess}. In \bibinfo{booktitle}{\emph{SIGRAD 2005 The Annual
+  SIGRAD Conference Special Theme-Mobile Graphics}}. Link{\"o}ping University
+  Electronic Press, \bibinfo{pages}{7--12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pohl, Jungmann, Taudul, Membarth, Hariharan,
+  Herfet, and Grau}{Pohl et~al\mbox{.}}{2017}]%
+        {PJT17}
+\bibfield{author}{\bibinfo{person}{Daniel Pohl}, \bibinfo{person}{Daniel
+  Jungmann}, \bibinfo{person}{Bartosz Taudul}, \bibinfo{person}{Richard
+  Membarth}, \bibinfo{person}{Harini Hariharan}, \bibinfo{person}{Thorsten
+  Herfet}, {and} \bibinfo{person}{Oliver Grau}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The next generation of in-home streaming: Light
+  fields, {5K}, 10 {G}b{E}, and foveated compression}. In
+  \bibinfo{booktitle}{\emph{2017 Federated Conference on Computer Science and
+  Information Systems (FedCSIS)}}. IEEE, \bibinfo{pages}{663--667}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ragan-Kelley, Barnes, Adams, Paris, Durand,
+  and Amarasinghe}{Ragan-Kelley et~al\mbox{.}}{2013}]%
+        {ragan2013halide}
+\bibfield{author}{\bibinfo{person}{Jonathan Ragan-Kelley},
+  \bibinfo{person}{Connelly Barnes}, \bibinfo{person}{Andrew Adams},
+  \bibinfo{person}{Sylvain Paris}, \bibinfo{person}{Fr{\'e}do Durand}, {and}
+  \bibinfo{person}{Saman Amarasinghe}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Halide: a language and compiler for optimizing
+  parallelism, locality, and recomputation in image processing pipelines}.
+\newblock \bibinfo{journal}{\emph{ACM SIGPLAN Notices}} \bibinfo{volume}{48},
+  \bibinfo{number}{6} (\bibinfo{year}{2013}), \bibinfo{pages}{519--530}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Segal and Akeley}{Segal and Akeley}{2013}]%
+        {SA13}
+\bibfield{author}{\bibinfo{person}{Mark Segal} {and} \bibinfo{person}{Kurt
+  Akeley}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{The OpenGL{\copyright} Graphics System: A
+  Specification (Version 4.3 (Core Profile) - February 14, 2013)}}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.khronos.org/registry/OpenGL/specs/gl/glspec43.core.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Str{\"o}m and Akenine-M{\"o}ller}{Str{\"o}m
+  and Akenine-M{\"o}ller}{2005}]%
+        {SAM05}
+\bibfield{author}{\bibinfo{person}{Jacob Str{\"o}m} {and}
+  \bibinfo{person}{Tomas Akenine-M{\"o}ller}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{i{PACKMAN}: High-quality, low-complexity texture
+  compression for mobile phones}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the ACM SIGGRAPH/EUROGRAPHICS conference on Graphics Hardware}}.
+  \bibinfo{pages}{63--70}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Str{\"o}m and Pettersson}{Str{\"o}m and
+  Pettersson}{2007}]%
+        {SP07}
+\bibfield{author}{\bibinfo{person}{Jacob Str{\"o}m} {and}
+  \bibinfo{person}{Martin Pettersson}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{{ETC} 2: texture compression using invalid
+  combinations}. In \bibinfo{booktitle}{\emph{Proceedings of the ACM
+  SIGGRAPH/EUROGRAPHICS conference on Graphics Hardware}}.
+  \bibinfo{pages}{49--54}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Taudul and Jungmann}{Taudul and
+  Jungmann}{2020}]%
+        {TJ20}
+\bibfield{author}{\bibinfo{person}{Bartosz Taudul} {and}
+  \bibinfo{person}{Daniel Jungmann}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{etcpak}}.
+\newblock
+\urldef\tempurl%
+\url{https://bitbucket.org/wolfpld/etcpak/src/master}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{{Unity Technologies}}{{Unity
+  Technologies}}{2017}]%
+        {Uni17}
+\bibfield{author}{\bibinfo{person}{{Unity Technologies}}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Unity User Manual (2017.3)}}.
+\newblock
+\urldef\tempurl%
+\url{https://docs.unity3d.com/2017.3/Documentation/Manual/class-EditorManager.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Voica}{Voica}{2013}]%
+        {PVRTC2}
+\bibfield{author}{\bibinfo{person}{Alex Voica}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Taking texture compression to a new
+  dimension with {PVRTC2}}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.imgtec.com/blog/pvrtc2-taking-texture-compression-to-a-new-dimension}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Wang, Bovik, Sheikh, and Simoncelli}{Wang
+  et~al\mbox{.}}{2004}]%
+        {SSIM}
+\bibfield{author}{\bibinfo{person}{Zhou Wang}, \bibinfo{person}{Alan~C Bovik},
+  \bibinfo{person}{Hamid~R Sheikh}, {and} \bibinfo{person}{Eero~P Simoncelli}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Image quality assessment: from error visibility to
+  structural similarity}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Image Processing}}
+  \bibinfo{volume}{13}, \bibinfo{number}{4} (\bibinfo{year}{2004}),
+  \bibinfo{pages}{600--612}.
+\newblock
+
+
+\end{thebibliography}
