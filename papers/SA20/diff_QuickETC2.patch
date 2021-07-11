@@ -948,7 +948,7 @@
 +        __m128i g8_reversed = _mm_shuffle_epi8(g8, reverse_mask);
 +        __m128i r8_reversed = _mm_shuffle_epi8(r8, reverse_mask);
 +
-+        // extends 3x128 bits RGB into 3x256 bits RGB for error comparisions
++        // extends 3x128 bits RGB into 3x256 bits RGB for error comparisons
 +        static const __m128i zero = _mm_setzero_si128();
 +        __m128i b8_lo = _mm_unpacklo_epi8(b8_reversed, zero);
 +        __m128i g8_lo = _mm_unpacklo_epi8(g8_reversed, zero);
