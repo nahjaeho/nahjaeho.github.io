@@ -23,325 +23,367 @@
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<!-- PRE LOADER -->
-<div class="preloader">
-     <div class="spinner">
-          <span class="spinner-rotate"></span>
-     </div>
-</div>
+    <!-- PRE LOADER -->
+    <div class="preloader">
+        <div class="spinner">
+            <span class="spinner-rotate"></span>
+        </div>
+    </div>
 
 
-<!-- NAVIGATION SECTION -->
-<div class="navbar custom-navbar navbar-fixed-top" role="navigation">
-     <div class="container">
+    <!-- NAVIGATION SECTION -->
+    <div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+        <div class="container">
 
-          <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
-               </button>
-               <!-- lOGO TEXT HERE -->
-               <a href="index.html" class="navbar-brand">Nah, Jae-Ho</a>
-          </div>
+                </button>
+                <!-- lOGO TEXT HERE -->
+                <a href="index.html" class="navbar-brand">Nah, Jae-Ho</a>
+            </div>
 
-          <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
                     <li><a class="smoothScroll" href="#about">Home</a></li>
                     <li><a class="smoothScroll" href="#selected_publications"> Selected Publications</a></li>
                     <li><a class="smoothScroll" href="#other_publications">Other Publications</a></li>
+                    <li><a class="smoothScroll" href="#academic_services">Academic Services</a></li>
 
-               </ul>
-          </div>
-
-     </div>
-</div>
-
-
-
-<!-- ABOUT SECTION -->
-<section id="about">
-     <div class="container">
-          <div class="row">
-
-
-                    <div class="about-thumb">
-                         <div class="col-md-2 col-sm-3">
-                              <img src="images/profile-image3.jpg" class="img-responsive img-circle"  alt="about image">
-                         </div>
-                         <div class=section-title" >
-                             <h2>
-                                 Jae-Ho Nah <a href="mailto:jaeho.nah@smu.ac.kr" class="fa fa-envelope-o"></a>
-                                 <a href="https://scholar.google.com/citations?user=ryFXQIcAAAAJ&hl=en" class="fa  fa-graduation-cap"></a>
-                                 <a href="https://dblp.org/pid/40/10570.html"> <img src="https://dblp.org/img/dblp.icon.192x192.png" width="48"></a>
-                                 <a href="https://www.linkedin.com/in/jae-ho-nah-442b6339" class="fa  fa-linkedin"></a>
-                             </h2>
-                             <p><h3><strong>Assistant Professor in the Department of Computer Science at Sangmyung University</strong></h3></p>
-                         </div>
-                         <div >
-                              <p>I received my B.S., M.S., and Ph.D. degrees from Yonsei University. </p>
-                              <p>Before joining Sangmyung University, I was a researcher at Sejong University, UNC Chapel Hill, and LG Electronics. </p>
-                              <p>My research interests include various GPU techniques, such as real-time ray tracing, texture compression, etc. </p>
-                              <p>If you are considering either a research collaboration with me or joining our lab, please feel free to contact me.</p>
-
-
-                         </div>
-                    </div>
-          </div>
-     </div>
-</section>
-
-
-
-<!-- selected_publications SECTION -->
-<section id="selected_publications"">
-     <div class="container">
-          <div class="row">
-
-               <p>
-               <div class="col-md-12 col-sm-12">
-                    <div class="section-title">
-                         <h2>Selected Publications</h2>
-                    </div>
-               </div>
-               </p>
-
-               <p>
-               <div class="media-left ">
-                    <img class="img media-object " src="papers/SA20/teaser.jpg">
-               </div>
-               <div class=" media-body">
-
-
-                    <h4> <a href="https://doi.org/10.1145/3414685.3417787">QuickETC2: Fast ETC2 Texture Compression using Luma Differences</a></h4>
-                    <p><strong>Jae-Ho Nah</strong></p>
-                    <p><strong>ACM Transactions on Graphics</strong> (Proc. of <strong>ACM SIGGRAPH Asia</strong> 2020), 39(6):270, 2020</p>
-                   <p> <a href="https://github.com/wolfpld/etcpak/releases/tag/1.0"> <span style="color:#0000CD;">Integrated into etcpak 1.0!</span> </a> </p>
-
-
-                   <p>
-                       <a href="papers/SA20/QUICKETC2_SA20.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                       <a href="papers/SA20/QUICKETC2_SA20_SUPP_DOC.pdf" class="btn btn-default btn-outline-secondary">Supp Doc</a>
-                       <a href="papers/SA20/QUICKETC2_SA20_slides.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
-                       <a href="papers/SA20/diff_QuickETC2.patch" class="btn btn-default btn-outline-secondary">Patch to etcpak 0.7</a>
-                       <a href="papers/SA20/etcpak_quickETC2_linux" class="btn btn-default btn-outline-secondary">Executable (Linux)</a>
-                       <a href="https://drive.google.com/file/d/13n6pYAjU02nZdKiUY_wL7Z_e_iJg-boX/view?usp=drive_link" class="btn btn-default btn-outline-secondary">Dataset</a>
-                       
-                   </p>
-               </div>
-               </p>
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object" src="papers/TOG14/teaser.jpg">
-                    </div>
-                    <div class="media-body">
-                         <h4><a href="https://doi.org/10.1145/2629634">RayCore: A Ray-Tracing Hardware Architecture for Mobile Devices</a>
-                         <p><strong>Jae-Ho Nah</strong>, Hyuck-Joo Kwon, Dong-Seok Kim, Cheol-Ho Jeong, Jinhong Park, Tack-Don Han, Dinesh Manocha, and Woo-Chan Park </p>
-                         <p><strong>ACM Transactions on Graphics</strong> (presented at <strong>ACM SIGGRAPH</strong> 2014), 33(5):162,  2014</p>
-
-                         <p>
-                              <a href="papers/TOG14/RayCore.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                              <a href="papers/TOG14/RayCore_slides.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
-                              <a href="https://sites.google.com/site/mplrayman/raycore" class="btn btn-default btn-outline-primary">Project</a>
-                         </p>
-                    </div>
-               </p>
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object " src="papers/SA11/SA11.jpg">
-                    </div>
-                    <div class="media-body">
-                         <h4><a href="https://dl.acm.org/doi/10.1145/2070781.2024194">T&I Engine: Traversal and Intersection Engine for Hardware Accelerated Ray Tracing</a>
-                         <p><strong>Jae-Ho Nah</strong>, Jeong-Soo Park, Chanmin Park, Jin-Woo Kim, Yunhye Jung, Woo-Chan Park, and Tack-Don Han </p>
-                         <p><strong>ACM Transactions on Graphics</strong> (Proc. of <strong>ACM SIGGRAPH Asia</strong> 2011), 30(6):160, 2011</p>
-
-                         <p>
-                              <a href="papers/SA11/papers242_final_ver_font_embedded.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                              <a href="papers/SA11/SA2011.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
-                         </p>
-                    </div>
-               </p>
-
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object " src="papers/SA2023.png">
-                    </div>
-                    <div class="media-body">
-                         <h4> <a href="https://doi.org/10.1145/3610548.3618237">An Architecture and Implementation of Real-Time Sound Propagation Hardware for Mobile Devices</a>
-                              <img class="img" src="images/new.png" style="width:40px;height:20px;">
-                              <p>Eunjae Kim, Sukwon Choi, Jiyoung Kim, <strong>Jae-Ho Nah</strong>, Woonam Jung, Tae-Hyeong Lee, Yeon-Kug Moon, and Woo-Chan Park</p>
-                              <p><strong>ACM SIGGRAPH Asia</strong> 2023 Conference Papers, No. 81, 2023</p>
-                              <p>
-                                  <a href="https://dl.acm.org/doi/pdf/10.1145/3610548.3618237" class="btn btn-default btn-outline-primary">PDF</a>
-                                  <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3610548.3618237&file=supplementaryMaterial.pdf" class="btn btn-default btn-outline-secondary">Supp Doc</a>
-                                  <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3610548.3618237&file=demo.mp4" class="btn btn-default btn-outline-secondary">Video</a>
-                              </p>
-                    </div>
-               </p>
-
-               <p>
-               <div class="media-left">
-                   <img class="img media-object " src="papers/PG23/H-ETC2.jpg">
-               </div>
-               <div class="media-body">
-                   <h4> <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14969">H-ETC2: Design of a CPU-GPU Hybrid ETC2 Encoder</a>
-                       <img class="img" src="images/new.png" style="width:40px;height:20px;">
-                       <p>Hyeon-ki Lee and <strong>Jae-Ho Nah</strong></p>
-                       <p>Computer Graphics Forum (Special Issue of Pacific Graphics 2023), 42(7), 2023</p>
-                       <p>
-                           <a href="https://diglib.eg.org/bitstream/handle/10.1111/cgf14969/v42i7_41_14969.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                           <a href="papers/PG23/PG2023_presentation.pdf" class="btn btn-default btn-outline-primary">Slides</a>
-                           <a href="papers/PG23/H-ETC2_KCGS2024.pdf" class="btn btn-default btn-outline-primary">Slides (Korean, KCGS2024)</a>
-                           <a href="https://github.com/gusrlLee/HETC2" class="btn btn-default btn-outline-primary">Code</a>
-                       </p>
-               </div>
-               </p>
-
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object " src="papers/CAG23/teaser.jpg">
-                    </div>
-                    <div class="media-body">
-                         <h4> <a href="https://www.sciencedirect.com/science/article/pii/S0097849323002236">QuickETC2-HQ: Improved ETC2 encoding techniques for real-time, high-quality texture compression</a>
-                             <img class="img" src="images/new.png" style="width:40px;height:20px;">
-                         <p><strong>Jae-Ho Nah</strong></p>
-                         <p>Computers & Graphics, 116:308-316, 2023</p>
-                         <p>
-                             <a href="papers/CAG23/cag-preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                             <a href="https://github.com/nahjaeho/etcpak" class="btn btn-default btn-outline-primary">Code</a>
-                         </p>
-                    </div>
-               </p>
-
-
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object" src="papers/CAG16/teaser.jpg">
-                    </div>
-                    <div class="media-body">
-                         <h4> <a href="https://www.sciencedirect.com/science/article/abs/pii/S009784931630111X">L-Bench: An Android Benchmark Set for Low-power Mobile GPUs</a>
-                         <p><strong>Jae-Ho Nah</strong>, Youngsun Suh, and Yeongkyu Lim</p>
-                         <p>Computers & Graphics, 61:40-49, 2016</p>
-                         <p>
-                              <a href="papers/CAG16/CAG16.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                              <a href="papers/CAG16/L-Bench.mp4" class="btn btn-default btn-outline-primary">Video</a>
-                         </p>
-                    </div>
-               </p>
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object " src="papers/TVCG15/HART.png">
-                    </div>
-                    <div class="media-body">
-                         <h4> <a href="https://ieeexplore.ieee.org/document/6960897">HART: A Hybrid Architecture for Ray Tracing Animated Scenes</a>
-                         <p><strong>Jae-Ho Nah</strong>, Jin-Woo Kim, Junho Park, Won-Jong Lee, Jeong-Soo Park, Seok-Yoon Jung, Woo-Chan Park, Dinesh Manocha, and Tack-Don Han</p>
-                         <p>IEEE Transactions on Visualization and Computer Graphics, 21(3):389-401, 2015</p>
-                         <p>
-                             <a href="http://gamma-web.iacs.umd.edu/HART/HARTfiles/HART_preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                             <a href="http://gamma-web.iacs.umd.edu/HART/" class="btn btn-default btn-outline-primary">Project</a>
-                         </p>
-                    </div>
-               </p>
-               <p>
-                    <div class="media-left">
-                         <img class="img media-object " src="papers/CGF14/1000_16000.jpg">
-                    </div>
-                    <div class="media-body">
-                         <h4> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12341">SATO: Surface-Area Traversal Order for Shadow Ray Tracing</a>
-                         <p><strong>Jae-Ho Nah</strong> and Dinesh Manocha</p>
-                         <p>Computer Graphics Forum, 33(6):167-177, 2014</p>
-                         <p>
-                              <a href="http://gamma-web.iacs.umd.edu/SATO/SATO_files/sato_preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-                              <a href="papers/CGF14/SATO2.pdf" class="btn btn-default btn-outline-primary">Slides</a>
-                              <a href="http://gamma-web.iacs.umd.edu/SATO/" class="btn btn-default btn-outline-primary">Project</a>
-                         </p>
-                    </div>
-               </p>
-              <p>
-              <div class="media-left">
-                  <img class="img media-object " src="papers/ferrari05.jpg">
-              </div>
-              <div class="media-body">
-                  <h4> <a href="https://dl.acm.org/doi/10.1145/2492045.2492057">SGRT: A Mobile GPU Architecture for Real-Time Ray Tracing</a>
-                      <p>Won-Jong Lee, Youngsam Shin, Jaedon Lee, Jin-Woo Kim, <strong>Jae-Ho Nah</strong>, Seokyoon Jung, Shihwa Lee, Hyun-Sang Park, and Tack-Don Han</p>
-                      <p>Proceedings of 5th High-Performance Graphics Conference, 109-119. 2013</p>
-                      <p> <a href="https://www.highperformancegraphics.org/2023/index.html"> <span style="color:#0000CD;">Third place at 2013 Test of Time Award!</span> </a>
-                      <p>
-                          <a href="https://www.won-jong.com/sgrt" class="btn btn-default btn-outline-primary">Project</a></p>
-                      </p>
-
-
-              </div>
-              </p>
-
-
-
-          </div>
-     </div>
-</section>
-
-<br>
-<br>
-<br>
-<br>
-<section id="other_publications">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2>Other Publications </h2>
-                <h3>(Journals) </h3>
-                <p>Yunho Han, Jiyoung Kim, Jinyoung Lee, <strong>Jae-Ho Nah</strong>, Yo-Sung Ho, and Woo-Chan Park, "<a href="https://www.mdpi.com/1424-8220/24/12/3746">Efficient Haze Removal from a Single Image Using a DCP-Based Lightweight U-Net Neural Network Model</a>," Sensors, vol. 24, iss. 12, no. 3746, 2024. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://www.mdpi.com/1424-8220/24/12/3746/pdf?version=1717906915" class="btn btn-default btn-outline-primary">PDF</a> </p>
-                <p><strong>Jae-Ho Nah</strong>, "<a href="https://www.sciencedirect.com/science/article/pii/S2665963823001069">Addition of an adaptive block-size determination feature to <i>astcenc</i>, the reference ASTC encoder</a>," Software Impacts, vol. 17, no. 100569, 2023. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://www.softwareimpacts.com/action/showPdf?pii=S2665-9638%2823%2900106-9" class="btn btn-default btn-outline-primary">PDF</a> <a href="https://github.com/nahjaeho/astc-encoder" class="btn btn-default btn-outline-primary">Code</a> </p>
-                <p>Eunjae Kim, Juwon Yun, Woonam Chung, <strong>Jae-Ho Nah</strong>, Youngsik Kim, Cheoung Ghil Kim, and Woo-Chan Park, "<a href="https://journals.riverpublishers.com/index.php/JWE/article/view/6981">Effective Algorithm to Control Depth Level for Performance Improvement of Sound Tracing</a>," Journal of Web Engineering, vol. 5, iss. 3, pp. 713–728, 2022. <a href="https://journals.riverpublishers.com/index.php/JWE/article/download/6981/10885" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Jinyoung Lee, <strong>Jae-Ho Nah</strong>, Woo-Nam Chung, Tae-Hyoung Lee, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/9521924">An Implementation of Multi-Chip Architecture for Real-Time Ray Tracing based on Parallel Frame Rendering</a>," IEEE Access, vol. 9, pp. 118968-118976, 2021.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9521924" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Jinyoung Lee, Woo-Nam Chung, Tae-Hyoung Lee, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/9174969">Load Balancing Algorithm for Real-Time Ray Tracing of Dynamic Scenes</a>," IEEE Access, vol. 8, pp. 165003 - 165009, 2020.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9174969" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Juwon Yun, Jinyoung Lee, Cheong Ghil Kim, Yeong-Kyu Lim, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/8777105">A Practically Applicable Performance Prediction Model based on Capabilities of Texture Mapping Units for Mobile GPUs</a>," IEEE Access, vol. 7, pp. 102975-102984, 2019. <a href="https://ieeexplore.ieee.org/iel7/6287639/8600701/08777105.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Juwon Yun, Jinyoung Lee, Cheong Ghil Kim, Yeong-Kyu Lim, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/8316820">A Novel Performance Prediction Model for Mobile GPUs</a>," IEEE Access, vol. 6, pp. 16235-16245, 2018.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8316820" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Yeongkyu Lim, Sunho Ki, and Chulho Shin, "<a href="https://link.springer.com/article/10.1007/s41095-017-0093-5">Z2 Traversal Order: An Interleaving Approach for VR Stereo Rendering on Tile-based GPUs</a>," Computational Visual Media, vol. 3, iss. 4, pp. 349-357, Aug. 2017. (Invited from ACM SIGGRAPH Asia 2016 Technical Briefs).<a href="https://link.springer.com/content/pdf/10.1007/s41095-017-0093-5.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Youngwook Kim, Woong Seo, Yongho Kim, Yeongkyu Lim, <strong>Jae-Ho Nah</strong>, and Insung Ihm, "<a href="https://link.springer.com/article/10.1007/s00371-016-1251-y">Adaptive Undersampling for Effective Mobile Ray Tracing</a>," The Visual Computer (Special Issue of Computer Graphics International 2016), vol. 32, pp. 801-811, Jun. 2016. <a href="http://grmanet.sogang.ac.kr/ihm/webpapers/1606AdaptiveUndersampling.pdf" class="btn btn-default btn-outline-primary">PDF</a> </p>
-                <p>Dong-Seok Kim, <strong>Jae-Ho Nah</strong>, and Woo-Chan Park, "<a href="https://link.springer.com/article/10.1007/s11042-015-2534-4">Geometry transition method to improve ray-tracing precision</a>," Multimedia Tools and Applications, vol. 75, pp. 5689-5700, May. 2016. <a href="papers/MT16.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Hyuck-Joo Kwon, <strong>Jae-Ho Nah</strong>, Dinesh Manocha, and Woo-Chan Park, "<a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849313001659">Effective traversal algorithms and hardware architecture for pyramidal inverse displacement mapping</a>," Computers & Graphics (Special Issue of CAD/GRAPHICS 2013), vol.38, pp. 140-149, Feb. 2014. <a href="papers/CAG14.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Woo-Chan Park, Yoon-Sig Kang, and Tack-Don Han, "<a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=15_206">Ray-Box Culling for Tree Structures</a>," Journal of Information Science and Engineering, vol. 29, no. 6, pp.1211-1225, Nov. 2013. <a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=15_206" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Jeong-soo Park, Woo-Chan Park, <strong>Jae-Ho Nah</strong>, and Tack-Don Han, "<a href="https://www.jstage.jst.go.jp/article/elex/10/14/10_10.20130468/_article">Node pre-fetching architecture for real-time ray tracing</a>," IEICE Electronics Express, vol. 10, iss. 14, pp.1-6, Jul. 2013.<a href="https://www.jstage.jst.go.jp/article/elex/10/14/10_10.20130468/_pdf/-char/en" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p>Yoon-Sig Kang, <strong>Jae-Ho Nah</strong>, Woo-Chan Park, and Sung-Bong Yang, "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1383762111000907">gkDtree: A Group-Based Parallel Update Kd-tree for Interactive Ray Tracing</a>," Journal of Systems Architecture, vol. 59, iss. 3, pp.166-175, Mar. 2013.<a href="papers/JSA13.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Yun-Hye Jung, Woo-Chan Park, and Tack-Don Han, "<a href="https://www.jstage.jst.go.jp/article/elex/9/9/9_849/_article">Efficient Ray Sorting for the Tracing of Incoherent Rays</a>," IEICE Electronics Express, vol. 9, iss. 9, pp.849-854, May 2012.<a href="https://www.jstage.jst.go.jp/article/elex/9/9/9_849/_pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                </ul>
             </div>
-            <div class="section-title">
-                <h3>(Conference Proceedings - Oral Presentations) </h3>
-                <p><strong>Jae-Ho Nah</strong>, "<a href="https://dl.acm.org/doi/10.1145/3388767.3407373">QuickETC2: How to Finish ETC2 Compression within 1 ms</a>," ACM SIGGRAPH 2020 Talks, no. 4, Aug. 2020. <a href="papers/SIG2020.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2020_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Byeongjun Choi, and Yeongkyu Lim, "<a href="https://dl.acm.org/doi/10.1145/3214745.3214763">Classified Texture Resizing for Mobile Devices</a>," ACM SIGGRAPH 2018 Talks, no. 73, Aug. 2018. <a href="papers/SIG2018.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2018_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Yeongkyu Lim, Sunho Ki, and Chulho Shin, "<a href="https://dl.acm.org/doi/10.1145/3005358.3005374">Z2 Traversal Order for VR Stereo Rendering on Tile-based Mobile GPUs</a>," ACM SIGGRAPH Asia 2016 Technical Briefs, no. 6, Dec. 2016. <a href="papers/SA2016.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2016_Slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
-                <p>Won-Jong Lee, Youngsam Shin, Jaedon Lee, Jin-Woo Kim, <strong>Jae-Ho Nah</strong>, Hyun-Sang Park, Seokyoon Jung, and Shihwa Lee, "<a href="https://ieeexplore.ieee.org/document/6486777">A novel mobile GPU architecture based on ray tracing</a>," Proceedings of 2013 IEEE International Conference on Consumer Electronics (ICCE), pp. 21-22, Jan. 2013.</p>
-                <p>Won-Jong Lee, Shi-Hwa Lee, <strong>Jae-Ho Nah</strong>, Jin-Woo Kim, Youngsam Shin, Jaedon Lee, and Seok-Yoon Jung, "<a href="https://dl.acm.org/doi/abs/10.1145/2343045.2343048">SGRT: A Scalable GPU Architecture based on Ray Tracing</a>," ACM SIGGRAPH 2012 Talks, No. 2, Aug. 2012.</p>
-                <p><strong>Jae-Ho Nah</strong>, Jeong-Soo Park, Jin-Woo Kim, Chanmin Park, and Tack-Don Han, "<a href="https://dl.acm.org/doi/10.1145/1899950.1900005">Ordered Depth-First Layouts for Ray Tracing</a>," ACM SIGGRAPH Asia 2010 Sketches, no. 55, Dec. 2010. <a href="papers/SA2010_ODFL.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2010_ODFL_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Yoon-Sig Kang, Kwang-Jo Lee, Shin-Jun Lee, Tack-Don Han, and Sung-Bong Yang, "<a href="https://dl.acm.org/doi/10.1145/1899950.1900000">MobiRT: An Implementation of OpenGL ES-Based CPU-GPU Hybrid Ray Tracer for Mobile Devices</a>," ACM SIGGRAPH Asia 2010 Sketches, no. 50, Dec. 2010. <a href="papers/SA2010_MobiRT.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2010_MobiRT_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a> <a href="papers/SA2010_MobiRT.avi" class="btn btn-default btn-outline-primary">Video</a></p>
-            </div>
-            <div class="section-title">
-                <h3>(Posters) </h3>
-                <p><strong>Jae-Ho Nah</strong> and Hyeju Kim, "<a href="https://dl.acm.org/doi/10.1145/3550082.3564204">TexSR: Image Super-Resolution for High-Quality Texture Mapping</a>," ACM SIGGRAPH Asia 2022 Posters, no. 17, Dec. 2022. <a href="papers/SA2022_paper.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2022_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a></p>
-                <p><strong>Jae-Ho Nah</strong>, Sunho Ki, Yeongkyu Lim, Jinhong Park, and Chulho Shin, "<a href="https://dl.acm.org/doi/abs/10.1145/2945078.2945129">AXAA: Adaptive approXimate Anti-Aliasing</a>," ACM SIGGRAPH 2016 Posters, no. 51, Jul. 2016. <a href="papers/SIG2016/SIG2016_AXAA.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2016/SIG2016_AXAA_comp_img.zip" class="btn btn-default btn-outline-primary">Comparison Images</a> <a href="papers/SIG2016/SIG2016_AXAA_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a> <a href="papers/SIG2016/SIG2016_AXAA_video.wmv" class="btn btn-default btn-outline-primary">Video</a>  <a href="papers/SIG2016/Fxaa3_11.h" class="btn btn-default btn-outline-primary">Shader code</a></p>
-                <p>Sunho Ki, <strong>Jae-Ho Nah</strong>, Minkyu Kim, Youngduke Seo, Chulho Shin, and Jinhong Park, "<a href="https://dl.acm.org/doi/10.1145/2820926.2820961">Reusing MRTs for mobile GPUs</a>," ACM SIGGRAPH Asia 2015 Posters, no. 44, Nov. 2015.</p>
-                <p><strong>Jae-Ho Nah</strong>, Kyung-ho Lee, Woo-chan Park, and Tack-don Han, "A Shadow Culling Algorithm for Interactive Ray Tracing," Graphics Interface 2009 Posters, May 2009. <strong>(Best Poster Award)</strong> <a href="papers/GI09.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/GI09_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a></p>
-                <p>Woo-Chan Park, Jinseok Hur, Dongseok Kim, <strong>Jae-Ho Nah</strong>, Jeongsu Park, Jinhong Park, and Tack-Don Han, "An Implementation of Ray Tracer on V5 FPGA," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips XII), Apr. 2009.</p>
-                <p><strong>Jae-Ho Nah</strong>, Jin-suk Heo, Woo-chan Park, and Tack-don Han, "<a href="https://ieeexplore.ieee.org/document/4634649">A Split Node Cache Scheme for Fast Ray Tracing</a>," Proceedings of IEEE/EG Symposium on Interactive Ray Tracing 2008 (RT08), Aug. 2008.  <a href="papers/RT08.pdf" class="btn btn-default btn-outline-primary">PDF</a> </p>
-                <p>Woo-chan Park, <strong>Jae-Ho Nah</strong>, Jeong-soo Park, Kyung-ho Lee, Dong-seok Kim, Sang-duk Kim, Jin-hong Park, Yoon-sig Kang, Sung-bong Yang, and Tack-don Han, "<a href="https://ieeexplore.ieee.org/document/4634650">An FPGA Implementation of Whitted-style Ray Tracing Accelerator</a>," Proceedings of IEEE/EG Symposium on Interactive Ray Tracing 2008 (RT08), Aug. 2008.</p>
-                <p>Jinhong Park, <strong>Jae-Ho Nah</strong>, Kyungho Lee, Sangduk Kim, Yoon-Sig Kang, Sung-Bong Yang, Tack-Don Han and Woo-Chan Park, "An Implementation of Ray Tracing Core on FPGA," ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games 2008 Poster (i3D 2008), Feb. 2008.</p>
-                <p>Il-San Kim, <strong>Jae-Ho Nah</strong>, and Tack-Don Han, "Transmission combining Arbiter for Multiple ROP units in 3D Graphics Accelerators," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips X), Apr. 2007.</p>
-                <p>Kyungho Lee, Sangduk Kim, <strong>Jae-Ho Nah</strong>, Yoon-sig Kang, Dongseok Kim, Sang-Won Ha, sung-Bong Yang, Tack-Don Han, and Woo-Chan Park, "A Framework for Real Time Ray Tracing," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips X), Apr. 2007.</p>
-            </div>
-            <div class="section-title">
-                <h3>(Domestic Papers) </h3>
-                <p>Hyeju Kim and <strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.15701/kcgs.2023.29.5.31">Comparative analysis of the deep-learning-based super-resolution methods for generating high-resolution texture maps</a>," Journal of the Korea Computer Graphics Society, vol. 29, no. 5, pp. 31-40, Dec. 2023. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="http://journal.cg-korea.org/download/download_pdf?pid=jkcgs-29-5-31" class="btn btn-default btn-outline-primary">PDF</a>
-                <p> <strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.18108/jeer.2023.26.6.71">Analysis of ChatGPT's Coding Capabilities in Foundational Programming Courses</a>," Journal of Engineering Education Research, vol. 26, no. 6, pp. 71-78, Nov. 2023. <strong>
-    <a href="https://www.ksee.org/html/?pmode=BBBS0004800001&page=1&smode=view&seq=1342&searchValue=%E3%85%8D&searchTitle=strTitle"> <span style="color:#0000CD;"> (Byeong Gi Lee's Best Paper Award)</span> </a>
-             <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://koreascience.kr/article/JAKO202334848238153.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-            <p><strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.18108/jeer.2023.26.1.12">A Case Study of an Online Course on Introductory Engineering Design in Computer Science</a>," Journal of Engineering Education Research, vol. 26, no. 1, pp. 12-19, Jan. 2023. <a href="https://koreascience.kr/article/JAKO202308743204416.pdf" class="btn btn-default btn-outline-primary">PDF</a>
-            <p><strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.15701/kcgs.2022.28.2.21">ASTC Block-Size Determination Method based on PSNR Values</a>," Journal of the Korea Computer Graphics Society, vol. 28, no. 2, pp. 21-28, Jun. 2022. <a href="http://journal.cg-korea.org/download/download_pdf?pid=jkcgs-28-2-21" class="btn btn-default btn-outline-primary">PDF</a>
-            <p><strong>Jae-Ho Nah</strong>, Woo-Chan Park, and Tack-Don Han, "<a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001396629">A Shadow Culling Algorithm for Interactive Ray Tracing,"</a> Journal of Korea Game Society, vol. 9, no. 6, pp. 179-190, Dec. 2009. <a href="https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO200908939909929&dbt=JAKO&koi=KISTI1.1003%2FJNL.JAKO200908939909929" class="btn btn-default btn-outline-primary">PDF</a>
+
+        </div>
+    </div>
+
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="about-thumb">
+                    <div class="col-md-2 col-sm-3">
+                        <img src="images/profile-image3.jpg" class="img-responsive img-circle" alt="about image">
+                    </div>
+                    <div class=section-title">
+                        <h2>
+                            Jae-Ho Nah <a href="mailto:jaeho.nah@smu.ac.kr" class="fa fa-envelope-o"></a>
+                            <a href="https://scholar.google.com/citations?user=ryFXQIcAAAAJ&hl=en" class="fa  fa-graduation-cap"></a>
+                            <a href="https://dblp.org/pid/40/10570.html"> <img src="https://dblp.org/img/dblp.icon.192x192.png" width="48"></a>
+                            <a href="https://www.linkedin.com/in/jae-ho-nah-442b6339" class="fa  fa-linkedin"></a>
+                        </h2>
+                        <p><h3><strong>Assistant Professor in the Department of Computer Science at Sangmyung University</strong></h3></p>
+                    </div>
+                    <div>
+                        <p>I received my B.S., M.S., and Ph.D. degrees from Yonsei University. </p>
+                        <p>Before joining Sangmyung University, I was a researcher at Sejong University, UNC Chapel Hill, and LG Electronics. </p>
+                        <p>My research interests include various GPU techniques, such as real-time ray tracing, texture compression, etc. </p>
+                        <p>If you are considering either a research collaboration with me or joining our lab, please feel free to contact me.</p>
+
+
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-    </div>
+
+
+    <!-- selected_publications SECTION -->
+    <section id="selected_publications" ">
+        <div class="container">
+            <div class="row">
+                <!--p-->
+                    <!-- div class="col-md-12 col-sm-12"-->
+                        <!-- div class="section-title"-->
+                            <h2>Selected Publications</h2>
+                        <!--/!--div-->
+                    <!--div-->
+                <!--/p-->
+
+                <p>
+                    <div class="media-left ">
+                        <img class="img media-object " src="papers/SA20/teaser.jpg">
+                    </div>
+                    <div class=" media-body">
+
+
+                        <h4> <a href="https://doi.org/10.1145/3414685.3417787">QuickETC2: Fast ETC2 Texture Compression using Luma Differences</a></h4>
+                        <p><strong>Jae-Ho Nah</strong></p>
+                        <p><strong>ACM Transactions on Graphics</strong> (Proc. of <strong>ACM SIGGRAPH Asia</strong> 2020), 39(6):270, 2020</p>
+                        <p> <a href="https://github.com/wolfpld/etcpak/releases/tag/1.0"> <span style="color:#0000CD;">Integrated into etcpak 1.0!</span> </a> </p>
+
+
+                        <p>
+                            <a href="papers/SA20/QUICKETC2_SA20.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                            <a href="papers/SA20/QUICKETC2_SA20_SUPP_DOC.pdf" class="btn btn-default btn-outline-secondary">Supp Doc</a>
+                            <a href="papers/SA20/QUICKETC2_SA20_slides.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
+                            <a href="papers/SA20/diff_QuickETC2.patch" class="btn btn-default btn-outline-secondary">Patch to etcpak 0.7</a>
+                            <a href="papers/SA20/etcpak_quickETC2_linux" class="btn btn-default btn-outline-secondary">Executable (Linux)</a>
+                            <a href="https://drive.google.com/file/d/13n6pYAjU02nZdKiUY_wL7Z_e_iJg-boX/view?usp=drive_link" class="btn btn-default btn-outline-secondary">Dataset</a>
+
+                        </p>
+                    </div>
+                </p>
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object" src="papers/TOG14/teaser.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://doi.org/10.1145/2629634">RayCore: A Ray-Tracing Hardware Architecture for Mobile Devices</a>
+                            <p><strong>Jae-Ho Nah</strong>, Hyuck-Joo Kwon, Dong-Seok Kim, Cheol-Ho Jeong, Jinhong Park, Tack-Don Han, Dinesh Manocha, and Woo-Chan Park </p>
+                            <p><strong>ACM Transactions on Graphics</strong> (presented at <strong>ACM SIGGRAPH</strong> 2014), 33(5):162,  2014</p>
+
+                            <p>
+                                <a href="papers/TOG14/RayCore.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="papers/TOG14/RayCore_slides.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
+                                <a href="https://sites.google.com/site/mplrayman/raycore" class="btn btn-default btn-outline-primary">Project</a>
+                            </p>
+                    </div>
+                </p>
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/SA11/SA11.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://dl.acm.org/doi/10.1145/2070781.2024194">T&I Engine: Traversal and Intersection Engine for Hardware Accelerated Ray Tracing</a>
+                            <p><strong>Jae-Ho Nah</strong>, Jeong-Soo Park, Chanmin Park, Jin-Woo Kim, Yunhye Jung, Woo-Chan Park, and Tack-Don Han </p>
+                            <p><strong>ACM Transactions on Graphics</strong> (Proc. of <strong>ACM SIGGRAPH Asia</strong> 2011), 30(6):160, 2011</p>
+
+                            <p>
+                                <a href="papers/SA11/papers242_final_ver_font_embedded.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="papers/SA11/SA2011.pdf" class="btn btn-default btn-outline-secondary">Slides</a>
+                            </p>
+                    </div>
+                </p>
+
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/SA2023.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://doi.org/10.1145/3610548.3618237">An Architecture and Implementation of Real-Time Sound Propagation Hardware for Mobile Devices</a>
+                            <img class="img" src="images/new.png" style="width:40px;height:20px;">
+                            <p>Eunjae Kim, Sukwon Choi, Jiyoung Kim, <strong>Jae-Ho Nah</strong>, Woonam Jung, Tae-Hyeong Lee, Yeon-Kug Moon, and Woo-Chan Park</p>
+                            <p><strong>ACM SIGGRAPH Asia</strong> 2023 Conference Papers, No. 81, 2023</p>
+                            <p>
+                                <a href="https://dl.acm.org/doi/pdf/10.1145/3610548.3618237" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3610548.3618237&file=supplementaryMaterial.pdf" class="btn btn-default btn-outline-secondary">Supp Doc</a>
+                                <a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3610548.3618237&file=demo.mp4" class="btn btn-default btn-outline-secondary">Video</a>
+                            </p>
+                    </div>
+                </p>
+
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/PG23/H-ETC2.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://onlinelibrary.wiley.com/doi/10.1111/cgf.14969">H-ETC2: Design of a CPU-GPU Hybrid ETC2 Encoder</a>
+                            <img class="img" src="images/new.png" style="width:40px;height:20px;">
+                            <p>Hyeon-ki Lee and <strong>Jae-Ho Nah</strong></p>
+                            <p>Computer Graphics Forum (Special Issue of Pacific Graphics 2023), 42(7), 2023</p>
+                            <p>
+                                <a href="https://diglib.eg.org/bitstream/handle/10.1111/cgf14969/v42i7_41_14969.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="papers/PG23/PG2023_presentation.pdf" class="btn btn-default btn-outline-primary">Slides</a>
+                                <a href="papers/PG23/H-ETC2_KCGS2024.pdf" class="btn btn-default btn-outline-primary">Slides (Korean, KCGS2024)</a>
+                                <a href="https://github.com/gusrlLee/HETC2" class="btn btn-default btn-outline-primary">Code</a>
+                            </p>
+                    </div>
+                </p>
+
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/CAG23/teaser.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S0097849323002236">QuickETC2-HQ: Improved ETC2 encoding techniques for real-time, high-quality texture compression</a>
+                            <img class="img" src="images/new.png" style="width:40px;height:20px;">
+                            <p><strong>Jae-Ho Nah</strong></p>
+                            <p>Computers & Graphics, 116:308-316, 2023</p>
+                            <p>
+                                <a href="papers/CAG23/cag-preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="https://github.com/nahjaeho/etcpak" class="btn btn-default btn-outline-primary">Code</a>
+                            </p>
+                    </div>
+                </p>
+
+
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object" src="papers/CAG16/teaser.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S009784931630111X">L-Bench: An Android Benchmark Set for Low-power Mobile GPUs</a>
+                            <p><strong>Jae-Ho Nah</strong>, Youngsun Suh, and Yeongkyu Lim</p>
+                            <p>Computers & Graphics, 61:40-49, 2016</p>
+                            <p>
+                                <a href="papers/CAG16/CAG16.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="papers/CAG16/L-Bench.mp4" class="btn btn-default btn-outline-primary">Video</a>
+                            </p>
+                    </div>
+                </p>
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/TVCG15/HART.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://ieeexplore.ieee.org/document/6960897">HART: A Hybrid Architecture for Ray Tracing Animated Scenes</a>
+                            <p><strong>Jae-Ho Nah</strong>, Jin-Woo Kim, Junho Park, Won-Jong Lee, Jeong-Soo Park, Seok-Yoon Jung, Woo-Chan Park, Dinesh Manocha, and Tack-Don Han</p>
+                            <p>IEEE Transactions on Visualization and Computer Graphics, 21(3):389-401, 2015</p>
+                            <p>
+                                <a href="http://gamma-web.iacs.umd.edu/HART/HARTfiles/HART_preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="http://gamma-web.iacs.umd.edu/HART/" class="btn btn-default btn-outline-primary">Project</a>
+                            </p>
+                    </div>
+                </p>
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/CGF14/1000_16000.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.12341">SATO: Surface-Area Traversal Order for Shadow Ray Tracing</a>
+                            <p><strong>Jae-Ho Nah</strong> and Dinesh Manocha</p>
+                            <p>Computer Graphics Forum, 33(6):167-177, 2014</p>
+                            <p>
+                                <a href="http://gamma-web.iacs.umd.edu/SATO/SATO_files/sato_preprint.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                                <a href="papers/CGF14/SATO2.pdf" class="btn btn-default btn-outline-primary">Slides</a>
+                                <a href="http://gamma-web.iacs.umd.edu/SATO/" class="btn btn-default btn-outline-primary">Project</a>
+                            </p>
+                    </div>
+                </p>
+                <p>
+                    <div class="media-left">
+                        <img class="img media-object " src="papers/ferrari05.jpg">
+                    </div>
+                    <div class="media-body">
+                        <h4>
+                            <a href="https://dl.acm.org/doi/10.1145/2492045.2492057">SGRT: A Mobile GPU Architecture for Real-Time Ray Tracing</a>
+                            <p>Won-Jong Lee, Youngsam Shin, Jaedon Lee, Jin-Woo Kim, <strong>Jae-Ho Nah</strong>, Seokyoon Jung, Shihwa Lee, Hyun-Sang Park, and Tack-Don Han</p>
+                            <p>Proceedings of 5th High-Performance Graphics Conference, 109-119. 2013</p>
+                            <p> <a href="https://www.highperformancegraphics.org/2023/index.html"> <span style="color:#0000CD;">Third place at 2013 Test of Time Award!</span> </a>
+                            <p>
+                                <a href="https://www.won-jong.com/sgrt" class="btn btn-default btn-outline-primary">Project</a>
+                            </p>
+                </p>
+
+
+            </div>
+            </p>
+
+
+
+        </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="other_publications">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Other Publications </h2>
+                    <h3>(Journals) </h3>
+                    <p>Yunho Han, Jiyoung Kim, Jinyoung Lee, <strong>Jae-Ho Nah</strong>, Yo-Sung Ho, and Woo-Chan Park, "<a href="https://www.mdpi.com/1424-8220/24/12/3746">Efficient Haze Removal from a Single Image Using a DCP-Based Lightweight U-Net Neural Network Model</a>," Sensors, vol. 24, iss. 12, no. 3746, 2024. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://www.mdpi.com/1424-8220/24/12/3746/pdf?version=1717906915" class="btn btn-default btn-outline-primary">PDF</a> </p>
+                    <p><strong>Jae-Ho Nah</strong>, "<a href="https://www.sciencedirect.com/science/article/pii/S2665963823001069">Addition of an adaptive block-size determination feature to <i>astcenc</i>, the reference ASTC encoder</a>," Software Impacts, vol. 17, no. 100569, 2023. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://www.softwareimpacts.com/action/showPdf?pii=S2665-9638%2823%2900106-9" class="btn btn-default btn-outline-primary">PDF</a> <a href="https://github.com/nahjaeho/astc-encoder" class="btn btn-default btn-outline-primary">Code</a> </p>
+                    <p>Eunjae Kim, Juwon Yun, Woonam Chung, <strong>Jae-Ho Nah</strong>, Youngsik Kim, Cheoung Ghil Kim, and Woo-Chan Park, "<a href="https://journals.riverpublishers.com/index.php/JWE/article/view/6981">Effective Algorithm to Control Depth Level for Performance Improvement of Sound Tracing</a>," Journal of Web Engineering, vol. 5, iss. 3, pp. 713–728, 2022. <a href="https://journals.riverpublishers.com/index.php/JWE/article/download/6981/10885" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Jinyoung Lee, <strong>Jae-Ho Nah</strong>, Woo-Nam Chung, Tae-Hyoung Lee, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/9521924">An Implementation of Multi-Chip Architecture for Real-Time Ray Tracing based on Parallel Frame Rendering</a>," IEEE Access, vol. 9, pp. 118968-118976, 2021.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9521924" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Jinyoung Lee, Woo-Nam Chung, Tae-Hyoung Lee, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/9174969">Load Balancing Algorithm for Real-Time Ray Tracing of Dynamic Scenes</a>," IEEE Access, vol. 8, pp. 165003 - 165009, 2020.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9174969" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Juwon Yun, Jinyoung Lee, Cheong Ghil Kim, Yeong-Kyu Lim, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/8777105">A Practically Applicable Performance Prediction Model based on Capabilities of Texture Mapping Units for Mobile GPUs</a>," IEEE Access, vol. 7, pp. 102975-102984, 2019. <a href="https://ieeexplore.ieee.org/iel7/6287639/8600701/08777105.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Juwon Yun, Jinyoung Lee, Cheong Ghil Kim, Yeong-Kyu Lim, <strong>Jae-Ho Nah</strong>, Youngsik Kim, and Woo-Chan Park, "<a href="https://ieeexplore.ieee.org/document/8316820">A Novel Performance Prediction Model for Mobile GPUs</a>," IEEE Access, vol. 6, pp. 16235-16245, 2018.  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8316820" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Yeongkyu Lim, Sunho Ki, and Chulho Shin, "<a href="https://link.springer.com/article/10.1007/s41095-017-0093-5">Z2 Traversal Order: An Interleaving Approach for VR Stereo Rendering on Tile-based GPUs</a>," Computational Visual Media, vol. 3, iss. 4, pp. 349-357, Aug. 2017. (Invited from ACM SIGGRAPH Asia 2016 Technical Briefs).<a href="https://link.springer.com/content/pdf/10.1007/s41095-017-0093-5.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Youngwook Kim, Woong Seo, Yongho Kim, Yeongkyu Lim, <strong>Jae-Ho Nah</strong>, and Insung Ihm, "<a href="https://link.springer.com/article/10.1007/s00371-016-1251-y">Adaptive Undersampling for Effective Mobile Ray Tracing</a>," The Visual Computer (Special Issue of Computer Graphics International 2016), vol. 32, pp. 801-811, Jun. 2016. <a href="http://grmanet.sogang.ac.kr/ihm/webpapers/1606AdaptiveUndersampling.pdf" class="btn btn-default btn-outline-primary">PDF</a> </p>
+                    <p>Dong-Seok Kim, <strong>Jae-Ho Nah</strong>, and Woo-Chan Park, "<a href="https://link.springer.com/article/10.1007/s11042-015-2534-4">Geometry transition method to improve ray-tracing precision</a>," Multimedia Tools and Applications, vol. 75, pp. 5689-5700, May. 2016. <a href="papers/MT16.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Hyuck-Joo Kwon, <strong>Jae-Ho Nah</strong>, Dinesh Manocha, and Woo-Chan Park, "<a href="https://www.sciencedirect.com/science/article/abs/pii/S0097849313001659">Effective traversal algorithms and hardware architecture for pyramidal inverse displacement mapping</a>," Computers & Graphics (Special Issue of CAD/GRAPHICS 2013), vol.38, pp. 140-149, Feb. 2014. <a href="papers/CAG14.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Woo-Chan Park, Yoon-Sig Kang, and Tack-Don Han, "<a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=15_206">Ray-Box Culling for Tree Structures</a>," Journal of Information Science and Engineering, vol. 29, no. 6, pp.1211-1225, Nov. 2013. <a href="https://jise.iis.sinica.edu.tw/JISESearch/pages/View/PaperView.jsf?keyId=15_206" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Jeong-soo Park, Woo-Chan Park, <strong>Jae-Ho Nah</strong>, and Tack-Don Han, "<a href="https://www.jstage.jst.go.jp/article/elex/10/14/10_10.20130468/_article">Node pre-fetching architecture for real-time ray tracing</a>," IEICE Electronics Express, vol. 10, iss. 14, pp.1-6, Jul. 2013.<a href="https://www.jstage.jst.go.jp/article/elex/10/14/10_10.20130468/_pdf/-char/en" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p>Yoon-Sig Kang, <strong>Jae-Ho Nah</strong>, Woo-Chan Park, and Sung-Bong Yang, "<a href="https://www.sciencedirect.com/science/article/abs/pii/S1383762111000907">gkDtree: A Group-Based Parallel Update Kd-tree for Interactive Ray Tracing</a>," Journal of Systems Architecture, vol. 59, iss. 3, pp.166-175, Mar. 2013.<a href="papers/JSA13.pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Yun-Hye Jung, Woo-Chan Park, and Tack-Don Han, "<a href="https://www.jstage.jst.go.jp/article/elex/9/9/9_849/_article">Efficient Ray Sorting for the Tracing of Incoherent Rays</a>," IEICE Electronics Express, vol. 9, iss. 9, pp.849-854, May 2012.<a href="https://www.jstage.jst.go.jp/article/elex/9/9/9_849/_pdf" class="btn btn-default btn-outline-primary">PDF</a></p>
+                </div>
+                <div class="section-title">
+                    <h3>(Conference Proceedings - Oral Presentations) </h3>
+                    <p><strong>Jae-Ho Nah</strong>, "<a href="https://dl.acm.org/doi/10.1145/3388767.3407373">QuickETC2: How to Finish ETC2 Compression within 1 ms</a>," ACM SIGGRAPH 2020 Talks, no. 4, Aug. 2020. <a href="papers/SIG2020.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2020_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Byeongjun Choi, and Yeongkyu Lim, "<a href="https://dl.acm.org/doi/10.1145/3214745.3214763">Classified Texture Resizing for Mobile Devices</a>," ACM SIGGRAPH 2018 Talks, no. 73, Aug. 2018. <a href="papers/SIG2018.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2018_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Yeongkyu Lim, Sunho Ki, and Chulho Shin, "<a href="https://dl.acm.org/doi/10.1145/3005358.3005374">Z2 Traversal Order for VR Stereo Rendering on Tile-based Mobile GPUs</a>," ACM SIGGRAPH Asia 2016 Technical Briefs, no. 6, Dec. 2016. <a href="papers/SA2016.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2016_Slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
+                    <p>Won-Jong Lee, Youngsam Shin, Jaedon Lee, Jin-Woo Kim, <strong>Jae-Ho Nah</strong>, Hyun-Sang Park, Seokyoon Jung, and Shihwa Lee, "<a href="https://ieeexplore.ieee.org/document/6486777">A novel mobile GPU architecture based on ray tracing</a>," Proceedings of 2013 IEEE International Conference on Consumer Electronics (ICCE), pp. 21-22, Jan. 2013.</p>
+                    <p>Won-Jong Lee, Shi-Hwa Lee, <strong>Jae-Ho Nah</strong>, Jin-Woo Kim, Youngsam Shin, Jaedon Lee, and Seok-Yoon Jung, "<a href="https://dl.acm.org/doi/abs/10.1145/2343045.2343048">SGRT: A Scalable GPU Architecture based on Ray Tracing</a>," ACM SIGGRAPH 2012 Talks, No. 2, Aug. 2012.</p>
+                    <p><strong>Jae-Ho Nah</strong>, Jeong-Soo Park, Jin-Woo Kim, Chanmin Park, and Tack-Don Han, "<a href="https://dl.acm.org/doi/10.1145/1899950.1900005">Ordered Depth-First Layouts for Ray Tracing</a>," ACM SIGGRAPH Asia 2010 Sketches, no. 55, Dec. 2010. <a href="papers/SA2010_ODFL.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2010_ODFL_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Yoon-Sig Kang, Kwang-Jo Lee, Shin-Jun Lee, Tack-Don Han, and Sung-Bong Yang, "<a href="https://dl.acm.org/doi/10.1145/1899950.1900000">MobiRT: An Implementation of OpenGL ES-Based CPU-GPU Hybrid Ray Tracer for Mobile Devices</a>," ACM SIGGRAPH Asia 2010 Sketches, no. 50, Dec. 2010. <a href="papers/SA2010_MobiRT.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2010_MobiRT_slides.pdf" class="btn btn-default btn-outline-primary">Slides</a> <a href="papers/SA2010_MobiRT.avi" class="btn btn-default btn-outline-primary">Video</a></p>
+                </div>
+                <div class="section-title">
+                    <h3>(Posters) </h3>
+                    <p><strong>Jae-Ho Nah</strong> and Hyeju Kim, "<a href="https://dl.acm.org/doi/10.1145/3550082.3564204">TexSR: Image Super-Resolution for High-Quality Texture Mapping</a>," ACM SIGGRAPH Asia 2022 Posters, no. 17, Dec. 2022. <a href="papers/SA2022_paper.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SA2022_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a></p>
+                    <p><strong>Jae-Ho Nah</strong>, Sunho Ki, Yeongkyu Lim, Jinhong Park, and Chulho Shin, "<a href="https://dl.acm.org/doi/abs/10.1145/2945078.2945129">AXAA: Adaptive approXimate Anti-Aliasing</a>," ACM SIGGRAPH 2016 Posters, no. 51, Jul. 2016. <a href="papers/SIG2016/SIG2016_AXAA.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/SIG2016/SIG2016_AXAA_comp_img.zip" class="btn btn-default btn-outline-primary">Comparison Images</a> <a href="papers/SIG2016/SIG2016_AXAA_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a> <a href="papers/SIG2016/SIG2016_AXAA_video.wmv" class="btn btn-default btn-outline-primary">Video</a>  <a href="papers/SIG2016/Fxaa3_11.h" class="btn btn-default btn-outline-primary">Shader code</a></p>
+                    <p>Sunho Ki, <strong>Jae-Ho Nah</strong>, Minkyu Kim, Youngduke Seo, Chulho Shin, and Jinhong Park, "<a href="https://dl.acm.org/doi/10.1145/2820926.2820961">Reusing MRTs for mobile GPUs</a>," ACM SIGGRAPH Asia 2015 Posters, no. 44, Nov. 2015.</p>
+                    <p><strong>Jae-Ho Nah</strong>, Kyung-ho Lee, Woo-chan Park, and Tack-don Han, "A Shadow Culling Algorithm for Interactive Ray Tracing," Graphics Interface 2009 Posters, May 2009. <strong>(Best Poster Award)</strong> <a href="papers/GI09.pdf" class="btn btn-default btn-outline-primary">PDF</a> <a href="papers/GI09_poster.pdf" class="btn btn-default btn-outline-primary">Poster</a></p>
+                    <p>Woo-Chan Park, Jinseok Hur, Dongseok Kim, <strong>Jae-Ho Nah</strong>, Jeongsu Park, Jinhong Park, and Tack-Don Han, "An Implementation of Ray Tracer on V5 FPGA," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips XII), Apr. 2009.</p>
+                    <p><strong>Jae-Ho Nah</strong>, Jin-suk Heo, Woo-chan Park, and Tack-don Han, "<a href="https://ieeexplore.ieee.org/document/4634649">A Split Node Cache Scheme for Fast Ray Tracing</a>," Proceedings of IEEE/EG Symposium on Interactive Ray Tracing 2008 (RT08), Aug. 2008.  <a href="papers/RT08.pdf" class="btn btn-default btn-outline-primary">PDF</a> </p>
+                    <p>Woo-chan Park, <strong>Jae-Ho Nah</strong>, Jeong-soo Park, Kyung-ho Lee, Dong-seok Kim, Sang-duk Kim, Jin-hong Park, Yoon-sig Kang, Sung-bong Yang, and Tack-don Han, "<a href="https://ieeexplore.ieee.org/document/4634650">An FPGA Implementation of Whitted-style Ray Tracing Accelerator</a>," Proceedings of IEEE/EG Symposium on Interactive Ray Tracing 2008 (RT08), Aug. 2008.</p>
+                    <p>Jinhong Park, <strong>Jae-Ho Nah</strong>, Kyungho Lee, Sangduk Kim, Yoon-Sig Kang, Sung-Bong Yang, Tack-Don Han and Woo-Chan Park, "An Implementation of Ray Tracing Core on FPGA," ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games 2008 Poster (i3D 2008), Feb. 2008.</p>
+                    <p>Il-San Kim, <strong>Jae-Ho Nah</strong>, and Tack-Don Han, "Transmission combining Arbiter for Multiple ROP units in 3D Graphics Accelerators," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips X), Apr. 2007.</p>
+                    <p>Kyungho Lee, Sangduk Kim, <strong>Jae-Ho Nah</strong>, Yoon-sig Kang, Dongseok Kim, Sang-Won Ha, sung-Bong Yang, Tack-Don Han, and Woo-Chan Park, "A Framework for Real Time Ray Tracing," Proceedings of IEEE Symposium on Low-Power and High-Speed Chips (Cool Chips X), Apr. 2007.</p>
+                </div>
+                <div class="section-title">
+                    <h3>(Domestic Papers) </h3>
+                    <p>Hyeju Kim and <strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.15701/kcgs.2023.29.5.31">Comparative analysis of the deep-learning-based super-resolution methods for generating high-resolution texture maps</a>," Journal of the Korea Computer Graphics Society, vol. 29, no. 5, pp. 31-40, Dec. 2023. <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="http://journal.cg-korea.org/download/download_pdf?pid=jkcgs-29-5-31" class="btn btn-default btn-outline-primary">PDF</a>
+                    <p>
+                        <strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.18108/jeer.2023.26.6.71">Analysis of ChatGPT's Coding Capabilities in Foundational Programming Courses</a>," Journal of Engineering Education Research, vol. 26, no. 6, pp. 71-78, Nov. 2023. <strong>
+                            <a href="https://www.ksee.org/html/?pmode=BBBS0004800001&page=1&smode=view&seq=1342&searchValue=%E3%85%8D&searchTitle=strTitle"> <span style="color:#0000CD;"> (Byeong Gi Lee's Best Paper Award)</span> </a>
+                        </strong>
+                        <img class="img" src="images/new.png" style="width:40px;height:20px;"> <a href="https://koreascience.kr/article/JAKO202334848238153.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                    <p><strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.18108/jeer.2023.26.1.12">A Case Study of an Online Course on Introductory Engineering Design in Computer Science</a>," Journal of Engineering Education Research, vol. 26, no. 1, pp. 12-19, Jan. 2023. <a href="https://koreascience.kr/article/JAKO202308743204416.pdf" class="btn btn-default btn-outline-primary">PDF</a>
+                    <p><strong>Jae-Ho Nah</strong>, "<a href="https://doi.org/10.15701/kcgs.2022.28.2.21">ASTC Block-Size Determination Method based on PSNR Values</a>," Journal of the Korea Computer Graphics Society, vol. 28, no. 2, pp. 21-28, Jun. 2022. <a href="http://journal.cg-korea.org/download/download_pdf?pid=jkcgs-28-2-21" class="btn btn-default btn-outline-primary">PDF</a>
+                    <p><strong>Jae-Ho Nah</strong>, Woo-Chan Park, and Tack-Don Han, "<a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001396629">A Shadow Culling Algorithm for Interactive Ray Tracing,"</a> Journal of Korea Game Society, vol. 9, no. 6, pp. 179-190, Dec. 2009. <a href="https://scienceon.kisti.re.kr/commons/util/originalView.do?cn=JAKO200908939909929&dbt=JAKO&koi=KISTI1.1003%2FJNL.JAKO200908939909929" class="btn btn-default btn-outline-primary">PDF</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="academic_services">
+        <div class="container">
+            <div class="row">
+                <h2>Academic Services</h2>
+                <h4>Session Chair, ACM SIGGRAPH Asia 2023. </h4>
+                <h4>Reviewer, ACM SIGGRAPH, 2020, 2021, 2022, 2023, 2024, 2025. </h4>
+                <h4>Reviewer, ACM SIGGRAPH Asia, 2022, 2023. </h4>
+                <h4>Reviewer, EUROGRAPHICS, 2015, 2020, 2025. </h4>
+                <h4>Reviewer, Computer Graphics Forum, 2024. </h4>
+                <h4>Reviewer, High-Performance Graphics, 2012, 2013, 2015, 2016, 2017, 2018, 2019. </h4>
+                <h4>Reviewer, Computers & Graphics, 2013, 2022. </h4>
+                <h4>Reviewer, Computer Animation and Virtual Worlds, 2018. </h4>
+                <h4>Reviewer, WSCG - International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision, 2015. </h4>
+                <h4>Reviewer, IEEE Transactions on Very Large Scale Integration, 2015. </h4>
+                <h4>Reviewer, IEEE Transactions on Multi-Scale Computing Systems, 2016. </h4>
+                <h4>Reviewer, Multimedia Systems, 2025. </h4>
+                <h4>Reviewer, Journal of Supercomputing, 2024. </h4>
+                <h4>Reviewer, Journal of Real-Time Image Processing, 2025. </h4>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
     <div style="text-align: center;"> Disclaimer: Preprints and other materials in this webpage are provided for personal use only and not for distribution. </div>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -353,22 +395,16 @@
 
         gtag('config', 'G-WK9RYZ29EC');
     </script>
-</section>
 
 
-
-
-
-
-
-<!-- SCRIPTS -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 </html>
